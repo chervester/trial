@@ -1,0 +1,14 @@
+@import url('https://fonts.google.com/specimen/Roboto') ;
+:root {
+--primary-color : #001514;
+--secondary-color : #fbfffe;
+--accent1-color : #6b0504;
+--accent2-color : #a3320b;
+--heading-font : 'Thin 100',serif;
+--paragraph-font : 'regular',serif;
+--nav-background-color : #58111a;
+--nav-background-color : #421564;
+--nav-link-color : #281f14;
+--nav-hover-link-color : #04686B;
+--nav-hover-background-color : #FBFFFE;
+}
