@@ -1,0 +1,78 @@
+@font-face 
+{ 
+    font-family:font-family:'Roboto', sans-serif;
+    src:url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap')}
+
+:root {
+    --primary-color: #15150fb4; 
+    --secondary-color: #e600ff; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Update with your selected font */
+    color: var(--primary-color);
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+nav a {
+    color: var(--primary-color);
+    margin: 0 15px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    top: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2045e9;
+}
+
+.hero article {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #30709db3; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero article img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+}
+
