@@ -10,7 +10,12 @@ body {
     margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 
@@ -43,14 +48,15 @@ header nav {
 }
 
 nav a {
-    color: var(rgb(22, 20, 20));
+    color: var(#8e0f0f);
     margin: 0 15px;
     background-color: #b30f0f;
 }
-nav a:hover{
+
+nav a:hover {
     color: #141514;
     background-color: #8cb446;
-     
+
 }
 
 .hero {
@@ -89,68 +95,24 @@ nav a:hover{
     display: flex;
 }
 
-.history {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1.5fr;
-    margin-top: 20px;
-    justify-items: center;
-}
-
-.history h2 {
-    grid-column: 1/4;
-    text-align: center;
-}
-
-.history img {
-    width: 90%;
-    height: auto;
-}
-
-.adventure {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: (100px, auto);
-    margin-top: 20px;
-    justify-items: center;
-    width: 100%;
-}
-
-.adventure figure {
-    text-align: center;
-}
-
-.adventure h2 {
-    grid-column: 1/5;
-}
-
-.adventure figure img {
-    max-width: 100%;
-}
-
 section {
     margin-top: 30px;
 }
 
 footer {
-    display: flex ;
-    grid-template-columns: 7fr, 1fr;
+    display: flex;
+    grid-template-columns: auto;
     margin-top: 20px;
     text-align: center;
     width: 100%;
     justify-content: space-evenly;
-    
+
 
 }
 
 footer img {
     width: 30px;
     margin: 0 10px;
-}
-
-header,
-footer {
-    max-width: 840px;
-    margin: 0 auto;
 }
 
 nav {
@@ -160,14 +122,18 @@ nav {
     justify-content: space-evenly;
     align-items: center;
 }
-.sociallinks{
+
+.sociallinks {
     justify-items: end;
     padding: 20px;
 }
-.sociallinks a img{
+
+.sociallinks a img {
     width: 10%;
 }
-.sociallinks a, .sociallinks a:hover{
+
+.sociallinks a,
+.sociallinks a:hover {
     background-color: unset;
     color: unset;
     text-decoration: none;
