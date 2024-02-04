@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #15150fb4;
+    --primary-color: #114957b4;
     --secondary-color: #eb8b1608;
 }
 
@@ -68,7 +68,7 @@ nav a:hover {
     width: 100%;
     top: 100%;
     height: auto;
-    display: table-row-group;
+
 }
 
 .hero h1 {
