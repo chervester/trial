@@ -2,7 +2,6 @@
     --primary-color: #114957b4;
     --secondary-color: #eb8b1608;
 }
-
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -10,19 +9,14 @@ body {
     margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 
 }
 
 p {
-    color: rgb(57, 191, 102);
+    color: #29994e;
     justify-content: space-around;
 
 
