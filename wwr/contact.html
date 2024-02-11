@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Chervester Nyasulu">
-    <link rel="stylesheet" href="styles/rafting.css">
-    <title>Contact Us</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chervester Nyasulu">
+        <meta name="description" content="Contact River Rafting Adventures for inquiries, reservations, and suggestions. Find our address, phone numbers, and email. Connect with our friendly team to plan your next adventure.">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <title>Contact Us - River Rafting Adventures</title>
 </head>
 
 <body>
@@ -21,7 +23,8 @@
     </header>
 
     <main>
-        <h2>Contact Us</h2>
+        <h1>Contact Us</h1>
+        <h2>Send Us Message</h2>
         <p>Address: Victoris Avenue, Chayamba House, Blantyre</p>
         <p>Phone: +265881779355</p>
         <p>Phone: +265991175639</p>
@@ -50,8 +53,11 @@
         <section id="contact-form">
             <h2>Contact Us</h2>
             <form action="process_form.php" method="post">
-                <label for="name">Your Name:</label>
+                <label for="name">First Name:</label>
                 <input type="text" id="name" name="name" required>
+            
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
 
                 <label for="email">Your Email:</label>
                 <input type="email" id="email" name="email" required>
@@ -60,14 +66,31 @@
                 <select id="purpose" name="purpose">
                     <option value="general">General Inquiry</option>
                     <option value="reservation">Reservation Question</option>
-                    <option value="suggestion">Website Suggestion</option>
+                    <option value="suggestion">Suggestion</option>
                 </select>
 
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <label>How did you hear about us?</label>
+        <input type="radio" id="heard-ad" name="how-heard" value="ad">
+        <label for="heard-ad">Advertisement</label>
 
-                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
-                <label for="newsletter">Subscribe me to the monthly newsletter</label>
+        <input type="radio" id="heard-social" name="how-heard" value="Facebook">
+        <label for="heard-social">Facebook</label>
+
+        <input type="radio" id="heard-social" name="how-heard" value="Instagram">
+        <label for="Instagram">Facebook</label>
+
+        <input type="radio" id="heard-social" name="how-heard" value="Linkedin">
+        <label for="heard-social">Linkedin</label>
+
+        <input type="radio" id="heard-friend" name="how-heard" value="friend">
+        <label for="heard-friend">Friend/Family</label>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+        <label for="newsletter">Subscribe me to the monthly newsletter</label>
+
 
                 <button type="submit">Submit</button>
             </form>
