@@ -195,3 +195,21 @@ footer a {
     border: 0;
     display: flex; 
 }
+.cta {
+    background-color: #ff6f00;
+    color: #fff;
+    border: 1px solid #333;
+    box-shadow: 10px 10px 5px #333;
+    padding: 1em;
+    border-radius: 10px;
+    width: fit-content;
+   }
+   .cta:hover {
+    background-color: #f0f;
+    color: #777;
+   }
+   /* This next rule is what happens when you click the button */
+   .cta:active {
+    background-color: #0f0;
+    color: #777;
+   }
