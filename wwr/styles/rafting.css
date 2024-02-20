@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #114957b4;
-    --secondary-color: #eb8b1608;
+    --primary-color: #605EC2;
+    --secondary-color: #A79EFF;
+    --heading-font: 'Arial', sans-serif;
 }
 body {
     margin: 0;
@@ -12,18 +13,17 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-
 }
 
 p {
-    color: #29994e;
+    color: #A79EFF;
     justify-content: space-around;
 
 }
 header{
     display: list-item;
     grid-template-columns: 1fr 2fr 1fr;
-    background-color: #333;
+    background-color: #FEFEDF;
     color: #fff;
     padding: 10px;
 }
@@ -68,7 +68,7 @@ nav a:hover {
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: hsl(173, 82%, 52%);
+    color: #D5CABD;
 }
 
 .hero article {
@@ -76,7 +76,7 @@ nav a:hover {
     top: 12%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #cf1d852b;
+    background-color: #FBF7FF;
     padding: 20px;
     border-radius: 5px;
 }
@@ -134,11 +134,11 @@ nav {
 #company-info,
 #employee-profiles,
 #contact-form {
-    background-color: #3498db;
+    background-color: #D5CABD;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(14, 202, 67, 0.1);
 }
 
 #contact-form {
@@ -169,7 +169,7 @@ button:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #D5CABD;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -208,8 +208,90 @@ footer a {
     background-color: #f0f;
     color: #777;
    }
-   /* This next rule is what happens when you click the button */
    .cta:active {
     background-color: #0f0;
     color: #777;
    }
+
+   #hero {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:  #20e9d2;
+
+}
+.hero-text h1{text-align: center;
+    color:  #20e9d2;
+
+}
+#newsletter {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the call-to-action section */
+#call-to-action {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#grid-layout {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-item {
+    margin: 10px;
+    text-align: center;
+    content: normal;
+}
+
+footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chervester Nyasulu">
+    <meta name="description"
+        content="Exciting white water rafting adventures for thrill-seekers. Sign up for our newsletter and explore our amazing trips.">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>River Rafting Adventures</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="River Rafting Adventures Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="images/hero.jpg" alt="White Water Rafting" class="full-width-image">
+            <div class="hero-text">
+                <h1>Experience the Thrill of White Water Rafting</h1>
+                <p>Join us for an adventure of a lifetime!</p>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form action="subscribe.php" method="post">
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section id="call-to-action">
+            <h2>Plan Your Adventure Now!</h2>
+            <p>Explore our amazing trips and embark on a white water rafting journey like never before.</p>
+            <a href="trips.html" class="cta-button">View Trips</a>
+        </section>
+
+        <section id="grid-layout">
+            <h2>Featured Activities</h2>
+            <div class="grid-item">
+                <img src="images/activity1.jpg" alt="White-water Rafting 1">
+                <p>Exciting Rapids</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/activity2.jpg" alt="Rafting Activity 2">
+                <p>Breathtaking Scenery</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 River Rafting Adventures | Created by Chervester Nyasulu</p>
+    </footer>
+</body>
+
+</html>
